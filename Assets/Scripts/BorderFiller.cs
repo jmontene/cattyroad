@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RowFiller : MonoBehaviour {
+public class BorderFiller : MonoBehaviour {
 
 	public GameObject[] fillingObjects;
 	public int fillAmount;

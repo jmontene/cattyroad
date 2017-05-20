@@ -6,13 +6,13 @@ public class ObstacleFiller : MonoBehaviour {
 
 	public GameObject[] obstacles;
 	public int obstaclesAmount;
-	private RowFiller _rowFiller;
+	private BorderFiller _rowFiller;
 	private int _units;
 
 	void Start ()
 	{
 		_units = (int)transform.localScale.x;
-		_rowFiller = GetComponent<RowFiller> ();
+		_rowFiller = GetComponent<BorderFiller> ();
 		int fillAmount = 0;
 		if (_rowFiller != null)
 			fillAmount = _rowFiller.fillAmount;
@@ -29,10 +29,5 @@ public class ObstacleFiller : MonoBehaviour {
 			obs.transform.position = new Vector3 (indexesAvailable[i], obs.transform.position.y, transform.position.z);
 			obs.transform.SetParent (transform);
 		}
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
 	}
 }
