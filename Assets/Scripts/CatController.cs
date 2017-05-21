@@ -9,10 +9,7 @@ public class CatController : MonoBehaviour {
 	public float speed = 1.0f;
 
 	private bool moving = false;
-	private int dirRight;
-	private int dirForward;
-	private float distanceMoved;
-	private Vector3 originalPos;
+	private bool movingForward;
 	private Vector3 targetPos;
 
 	// Use this for initialization
@@ -21,14 +18,25 @@ public class CatController : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+		ProcessMovement();
+	}
+
+	void ProcessMovement(){
 		float forward = Input.GetAxis("Vertical");
 		if(forward != 0 && !moving){
+			if(forward > 0){
+				RowController.Instance.AddRow();
+				movingForward = true;
+			}else{
+				movingForward = false;
+			}
 			targetPos = transform.position + (transform.forward * forward * tileSize);
 			moving = true;
 		}
 
 		float right = Input.GetAxis("Horizontal");
 		if(right != 0 && !moving){
+			movingForward = false;
 			targetPos = transform.position + (transform.right * right * tileSize);
 			moving = true;
 		}
@@ -37,6 +45,7 @@ public class CatController : MonoBehaviour {
 			Move();
 			if(transform.position == targetPos){
 				moving = false;
+				if(movingForward) RowController.Instance.DestroyRow();
 			}
 		}
 	}
