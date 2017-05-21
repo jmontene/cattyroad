@@ -11,6 +11,7 @@ public class CatController : MonoBehaviour {
 	private bool moving = false;
 	private bool movingForward;
 	private Vector3 targetPos;
+	public LayerMask blockLayer;
 
 	// Use this for initialization
 	void Start () {
@@ -41,6 +42,8 @@ public class CatController : MonoBehaviour {
 			moving = true;
 		}
 
+		if (Physics.Linecast (transform.position, targetPos, blockLayer))
+			moving = false;
 		if(moving){
 			Move();
 			if(transform.position == targetPos){
