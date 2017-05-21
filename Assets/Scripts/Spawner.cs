@@ -26,9 +26,9 @@ public class Spawner : MonoBehaviour {
 			GameObject obj = Instantiate (objs [randomIdx]);
 			if (!_fromLeft)
 			{
-				CarController cc = obj.GetComponent<CarController> ();
-				if (cc != null)
-					cc.speed *= -1f;
+				ObjMover mover = obj.GetComponent<ObjMover> ();
+				if (mover != null)
+					mover.speed *= -1f;
 			}
 			float spawnX = _fromLeft ? -obj.transform.localScale.x / 2f : _units + obj.transform.localScale.x / 2f;
 			spawnX -= 0.5f;
