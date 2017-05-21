@@ -22,7 +22,7 @@ public class Spawner : MonoBehaviour {
 		while (true)
 		{
 			yield return new WaitForSeconds (Random.Range(minSpawnTime, maxSpawnTime));
-			int randomIdx = Random.Range (0, objs.Length - 1);
+			int randomIdx = Random.Range (0, objs.Length);
 			GameObject obj = Instantiate (objs [randomIdx]);
 			if (!_fromLeft)
 			{

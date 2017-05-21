@@ -24,7 +24,7 @@ public class ObstacleFiller : MonoBehaviour {
 		int randomIdx;
 		for (int i = 0; i < obstaclesAmount && i < _units - fillAmount * 2; i++)
 		{
-			randomIdx = Random.Range (0, obstacles.Length - 1);
+			randomIdx = Random.Range (0, obstacles.Length);
 			obs = Instantiate (obstacles [randomIdx]);
 			obs.transform.position = new Vector3 (indexesAvailable[i], obs.transform.position.y, transform.position.z);
 			obs.transform.SetParent (transform);
