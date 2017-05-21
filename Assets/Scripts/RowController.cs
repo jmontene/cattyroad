@@ -4,42 +4,66 @@ using UnityEngine;
 
 public class RowController : MonoBehaviour {
 
+	private static RowController _instance;
+
+	public static RowController Instance { get { return _instance; } }
+
+	private void Awake()
+	{
+		if (_instance != null && _instance != this)
+		{
+			Destroy(this.gameObject);
+		} else {
+			_instance = this;
+		}
+	}
+
 	public GameObject[] rowTypes;
 	public int rowAmount;
 	public GameObject freeRow;
 	public int startFreeRows;
 	public int lengthFreeRows;
 	private float _lastZ;
+	private GameObject _row;
+	private int _randomIdx;
 
 	void Start ()
 	{
-		GameObject row;
-		int randomIdx;
 		for (int i = 0; i < rowAmount; i++)
 		{
 			if (freeRow != null && i == startFreeRows) 
 			{
 				for (int j = 0; j < lengthFreeRows; j++)
 				{
-					row = Instantiate (freeRow);
-					Vector3 pos = row.transform.position;
+					_row = Instantiate (freeRow);
+					Vector3 pos = _row.transform.position;
 					pos.z = _lastZ;
-					row.transform.position = pos;
-					row.transform.SetParent (transform);
+					_row.transform.position = pos;
+					_row.transform.SetParent (transform);
 					_lastZ++;
 				}
 				i += lengthFreeRows - 1;
 			}
 			else
 			{
-				randomIdx = Random.Range (0, rowTypes.Length);
-				row = Instantiate (rowTypes[randomIdx]);
-				Vector3 pos = row.transform.position;
-				pos.z = _lastZ;
-				row.transform.position = pos;
-				row.transform.SetParent (transform);
-				_lastZ++;
+				AddRow ();
 			}
 		}
+	}
+
+	public void DestroyRow()
+	{
+		Destroy(transform.GetChild (0).gameObject);
+	}
+
+	public void AddRow()
+	{
+		_randomIdx = Random.Range (0, rowTypes.Length);
+		_row = Instantiate (rowTypes[_randomIdx]);
+		Vector3 pos = _row.transform.position;
+		pos.z = _lastZ;
+		_row.transform.position = pos;
+		_row.transform.SetParent (transform);
+		_lastZ++;
 	}
 }
