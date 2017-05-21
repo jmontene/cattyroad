@@ -12,13 +12,27 @@ public class CatController : MonoBehaviour {
 	private bool movingForward;
 	private Vector3 targetPos;
 
+	public LayerMask blockLayer;
+	public LayerMask deathLayer;
+	public LayerMask platformLayer;
+
+	private bool dead = false;
+	private bool falling = false;
+
 	// Use this for initialization
 	void Start () {
 	}
 
 	// Update is called once per frame
 	void Update () {
+		if(dead){
+			if(falling){
+				Fall();
+			}
+			return;
+		}
 		ProcessMovement();
+		CheckBelow();
 	}
 
 	void ProcessMovement(){
@@ -41,6 +55,8 @@ public class CatController : MonoBehaviour {
 			moving = true;
 		}
 
+		if (Physics.Linecast (transform.position, targetPos, blockLayer))
+			moving = false;
 		if(moving){
 			Move();
 			if(transform.position == targetPos){
@@ -52,5 +68,31 @@ public class CatController : MonoBehaviour {
 
 	void Move(){
 		transform.position = Vector3.MoveTowards(transform.position, targetPos, speed*Time.deltaTime);
+	}
+
+	void CheckBelow(){
+		if(Physics.Linecast(transform.position, transform.position + (Vector3.down * tileSize), platformLayer)){
+			return;
+		}
+		if(Physics.Linecast(transform.position, transform.position + (Vector3.down * tileSize), deathLayer)){
+			Fall();
+		}
+	}
+
+	void OnTriggerEnter(Collider other){
+		if(other.tag == "KillCat"){
+			Die();
+		}
+	}
+
+	void Fall(){
+		dead = true;
+		falling = true;
+		transform.Translate(transform.up*-1*speed*Time.deltaTime);
+	}
+
+	void Die(){
+		dead = true;
+		Destroy(gameObject);
 	}
 }
