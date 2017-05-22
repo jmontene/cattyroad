@@ -95,4 +95,8 @@ public class CatController : MonoBehaviour {
 		dead = true;
 		Destroy(gameObject);
 	}
+
+	public bool IsDead(){
+		return dead;
+	}
 }
