@@ -26,6 +26,9 @@ public class Spawner : MonoBehaviour {
 			GameObject obj = Instantiate (objs [randomIdx]);
 			if (!_fromLeft)
 			{
+				Vector3 scale = obj.transform.localScale;
+				scale.x *= -1;
+				obj.transform.localScale = scale;
 				ObjMover mover = obj.GetComponent<ObjMover> ();
 				if (mover != null)
 					mover.speed *= -1f;
