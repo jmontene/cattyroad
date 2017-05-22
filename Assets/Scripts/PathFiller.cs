@@ -29,15 +29,12 @@ public class PathFiller : Assigner {
 		indexesAvailable.Shuffle ();
 		int randomIdx;
 		GameObject obs;
-		Transform previousRow = RowController.Instance.GetPreviousRow(0);
+		Transform previousRow = RowController.Instance.PreviousRow;
 		if (previousRow != null)
 		{
 			PathFiller pf = previousRow.GetComponent<PathFiller> ();
 			if (pf != null)
 			{
-				Transform previousRow2 = RowController.Instance.GetPreviousRow(0);
-
-
 				Transform[] previousPaths = previousRow.GetInmediateChildren ().ToArray ();
 				List<int> continuousAvailable = new List<int> ();
 				for (int i = 0; i < pf._continuousPathIdx.Length; i++)

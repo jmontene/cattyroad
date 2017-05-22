@@ -27,6 +27,16 @@ public class RowController : MonoBehaviour {
 	private GameObject _row;
 	private int _randomIdx;
 
+	public Transform PreviousRow
+	{
+		get
+		{ 
+			if (transform.childCount > 1)
+				return transform.GetChild (transform.childCount - 2);
+			return null;
+		}
+	}
+		
 	void Start ()
 	{
 		for (int i = 0; i < rowAmount; i++)
@@ -68,13 +78,5 @@ public class RowController : MonoBehaviour {
 		if (asgn != null)
 			asgn.Assign ();
 		_lastZ++;
-	}
-
-
-	public Transform GetPreviousRow(int depth)
-	{
-		if (transform.childCount > 1 + depth)
-			return transform.GetChild (transform.childCount - 2 - depth);
-		return null;
 	}
 }
