@@ -1,0 +1,1268 @@
+fileFormatVersion: 2
+guid: f6c65cc5655c85b4784a23592702bc68
+timeCreated: 1495409712
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BackFoot.l
+    100002: BackFoot.r
+    100004: BackLeg0.l
+    100006: BackLeg0.r
+    100008: BackLeg1.l
+    100010: BackLeg1.r
+    100012: BackLeg2.l
+    100014: BackLeg2.r
+    100016: Cat
+    100018: //RootNode
+    100020: FrontFoot.l
+    100022: FrontFoot.r
+    100024: FrontLeg1.l
+    100026: FrontLeg1.r
+    100028: FrontLeg2.l
+    100030: FrontLeg2.r
+    100032: Head
+    100034: Hips
+    100036: Neck
+    100038: Root
+    100040: Skeleton
+    100042: Spine
+    100044: Spine.001
+    100046: Tail1
+    100048: Tail2
+    100050: Tail3
+    400000: BackFoot.l
+    400002: BackFoot.r
+    400004: BackLeg0.l
+    400006: BackLeg0.r
+    400008: BackLeg1.l
+    400010: BackLeg1.r
+    400012: BackLeg2.l
+    400014: BackLeg2.r
+    400016: Cat
+    400018: //RootNode
+    400020: FrontFoot.l
+    400022: FrontFoot.r
+    400024: FrontLeg1.l
+    400026: FrontLeg1.r
+    400028: FrontLeg2.l
+    400030: FrontLeg2.r
+    400032: Head
+    400034: Hips
+    400036: Neck
+    400038: Root
+    400040: Skeleton
+    400042: Spine
+    400044: Spine.001
+    400046: Tail1
+    400048: Tail2
+    400050: Tail3
+    4300000: Cat
+    7400000: All
+    7400002: Skeleton|CatAction
+    7400004: Cat|CatAction
+    7400006: Stand
+    7400008: Sit
+    7400010: Walk
+    7400012: Jump - Start
+    7400014: Jump - MidAir
+    7400016: Jump - Land
+    7400018: Spawn
+    7400020: Hurt
+    7400022: Idle1
+    7400024: Idle2
+    7400026: Idle3
+    7400028: Tail
+    7400030: Hurt - MidAir
+    9500000: //RootNode
+    13700000: Cat
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: All
+      takeName: Skeleton|Animations
+      firstFrame: 0
+      lastFrame: 635
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat
+        weight: 1
+      - path: Skeleton
+        weight: 1
+      - path: Skeleton/Root
+        weight: 1
+      - path: Skeleton/Root/Hips
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l/BackLeg1.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l/BackLeg1.l/BackLeg2.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l/BackLeg1.l/BackLeg2.l/BackFoot.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r/BackLeg1.r
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r/BackLeg1.r/BackLeg2.r
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r/BackLeg1.r/BackLeg2.r/BackFoot.r
+        weight: 1
+      - path: Skeleton/Root/Hips/Tail1
+        weight: 1
+      - path: Skeleton/Root/Hips/Tail1/Tail2
+        weight: 1
+      - path: Skeleton/Root/Hips/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Skeleton/Root/Spine
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.l
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.l/FrontLeg2.l
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.l/FrontLeg2.l/FrontFoot.l
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.r
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.r/FrontLeg2.r
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.r/FrontLeg2.r/FrontFoot.r
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/Neck
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/Neck/Head
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Stand
+      takeName: Skeleton|Animations
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat
+        weight: 1
+      - path: Skeleton
+        weight: 1
+      - path: Skeleton/Root
+        weight: 1
+      - path: Skeleton/Root/Hips
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l/BackLeg1.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l/BackLeg1.l/BackLeg2.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l/BackLeg1.l/BackLeg2.l/BackFoot.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r/BackLeg1.r
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r/BackLeg1.r/BackLeg2.r
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r/BackLeg1.r/BackLeg2.r/BackFoot.r
+        weight: 1
+      - path: Skeleton/Root/Hips/Tail1
+        weight: 1
+      - path: Skeleton/Root/Hips/Tail1/Tail2
+        weight: 1
+      - path: Skeleton/Root/Hips/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Skeleton/Root/Spine
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.l
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.l/FrontLeg2.l
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.l/FrontLeg2.l/FrontFoot.l
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.r
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.r/FrontLeg2.r
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.r/FrontLeg2.r/FrontFoot.r
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/Neck
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/Neck/Head
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sit
+      takeName: Skeleton|Animations
+      firstFrame: 25
+      lastFrame: 26
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat
+        weight: 1
+      - path: Skeleton
+        weight: 1
+      - path: Skeleton/Root
+        weight: 1
+      - path: Skeleton/Root/Hips
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l/BackLeg1.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l/BackLeg1.l/BackLeg2.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l/BackLeg1.l/BackLeg2.l/BackFoot.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r/BackLeg1.r
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r/BackLeg1.r/BackLeg2.r
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r/BackLeg1.r/BackLeg2.r/BackFoot.r
+        weight: 1
+      - path: Skeleton/Root/Hips/Tail1
+        weight: 1
+      - path: Skeleton/Root/Hips/Tail1/Tail2
+        weight: 1
+      - path: Skeleton/Root/Hips/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Skeleton/Root/Spine
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.l
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.l/FrontLeg2.l
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.l/FrontLeg2.l/FrontFoot.l
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.r
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.r/FrontLeg2.r
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.r/FrontLeg2.r/FrontFoot.r
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/Neck
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/Neck/Head
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk
+      takeName: Skeleton|Animations
+      firstFrame: 50
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat
+        weight: 1
+      - path: Skeleton
+        weight: 1
+      - path: Skeleton/Root
+        weight: 1
+      - path: Skeleton/Root/Hips
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l/BackLeg1.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l/BackLeg1.l/BackLeg2.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l/BackLeg1.l/BackLeg2.l/BackFoot.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r/BackLeg1.r
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r/BackLeg1.r/BackLeg2.r
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r/BackLeg1.r/BackLeg2.r/BackFoot.r
+        weight: 1
+      - path: Skeleton/Root/Hips/Tail1
+        weight: 1
+      - path: Skeleton/Root/Hips/Tail1/Tail2
+        weight: 1
+      - path: Skeleton/Root/Hips/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Skeleton/Root/Spine
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.l
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.l/FrontLeg2.l
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.l/FrontLeg2.l/FrontFoot.l
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.r
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.r/FrontLeg2.r
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.r/FrontLeg2.r/FrontFoot.r
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/Neck
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/Neck/Head
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jump - Start
+      takeName: Skeleton|Animations
+      firstFrame: 115
+      lastFrame: 145
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat
+        weight: 1
+      - path: Skeleton
+        weight: 1
+      - path: Skeleton/Root
+        weight: 1
+      - path: Skeleton/Root/Hips
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l/BackLeg1.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l/BackLeg1.l/BackLeg2.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l/BackLeg1.l/BackLeg2.l/BackFoot.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r/BackLeg1.r
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r/BackLeg1.r/BackLeg2.r
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r/BackLeg1.r/BackLeg2.r/BackFoot.r
+        weight: 1
+      - path: Skeleton/Root/Hips/Tail1
+        weight: 1
+      - path: Skeleton/Root/Hips/Tail1/Tail2
+        weight: 1
+      - path: Skeleton/Root/Hips/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Skeleton/Root/Spine
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.l
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.l/FrontLeg2.l
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.l/FrontLeg2.l/FrontFoot.l
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.r
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.r/FrontLeg2.r
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.r/FrontLeg2.r/FrontFoot.r
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/Neck
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/Neck/Head
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jump - MidAir
+      takeName: Skeleton|Animations
+      firstFrame: 145
+      lastFrame: 146
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat
+        weight: 1
+      - path: Skeleton
+        weight: 1
+      - path: Skeleton/Root
+        weight: 1
+      - path: Skeleton/Root/Hips
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l/BackLeg1.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l/BackLeg1.l/BackLeg2.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l/BackLeg1.l/BackLeg2.l/BackFoot.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r/BackLeg1.r
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r/BackLeg1.r/BackLeg2.r
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r/BackLeg1.r/BackLeg2.r/BackFoot.r
+        weight: 1
+      - path: Skeleton/Root/Hips/Tail1
+        weight: 1
+      - path: Skeleton/Root/Hips/Tail1/Tail2
+        weight: 1
+      - path: Skeleton/Root/Hips/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Skeleton/Root/Spine
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.l
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.l/FrontLeg2.l
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.l/FrontLeg2.l/FrontFoot.l
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.r
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.r/FrontLeg2.r
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.r/FrontLeg2.r/FrontFoot.r
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/Neck
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/Neck/Head
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jump - Land
+      takeName: Skeleton|Animations
+      firstFrame: 145
+      lastFrame: 160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat
+        weight: 1
+      - path: Skeleton
+        weight: 1
+      - path: Skeleton/Root
+        weight: 1
+      - path: Skeleton/Root/Hips
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l/BackLeg1.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l/BackLeg1.l/BackLeg2.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l/BackLeg1.l/BackLeg2.l/BackFoot.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r/BackLeg1.r
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r/BackLeg1.r/BackLeg2.r
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r/BackLeg1.r/BackLeg2.r/BackFoot.r
+        weight: 1
+      - path: Skeleton/Root/Hips/Tail1
+        weight: 1
+      - path: Skeleton/Root/Hips/Tail1/Tail2
+        weight: 1
+      - path: Skeleton/Root/Hips/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Skeleton/Root/Spine
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.l
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.l/FrontLeg2.l
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.l/FrontLeg2.l/FrontFoot.l
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.r
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.r/FrontLeg2.r
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.r/FrontLeg2.r/FrontFoot.r
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/Neck
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/Neck/Head
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Spawn
+      takeName: Skeleton|Animations
+      firstFrame: 200
+      lastFrame: 235
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat
+        weight: 1
+      - path: Skeleton
+        weight: 1
+      - path: Skeleton/Root
+        weight: 1
+      - path: Skeleton/Root/Hips
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l/BackLeg1.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l/BackLeg1.l/BackLeg2.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l/BackLeg1.l/BackLeg2.l/BackFoot.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r/BackLeg1.r
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r/BackLeg1.r/BackLeg2.r
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r/BackLeg1.r/BackLeg2.r/BackFoot.r
+        weight: 1
+      - path: Skeleton/Root/Hips/Tail1
+        weight: 1
+      - path: Skeleton/Root/Hips/Tail1/Tail2
+        weight: 1
+      - path: Skeleton/Root/Hips/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Skeleton/Root/Spine
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.l
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.l/FrontLeg2.l
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.l/FrontLeg2.l/FrontFoot.l
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.r
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.r/FrontLeg2.r
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.r/FrontLeg2.r/FrontFoot.r
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/Neck
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/Neck/Head
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hurt
+      takeName: Skeleton|Animations
+      firstFrame: 295
+      lastFrame: 305
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat
+        weight: 1
+      - path: Skeleton
+        weight: 1
+      - path: Skeleton/Root
+        weight: 1
+      - path: Skeleton/Root/Hips
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l/BackLeg1.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l/BackLeg1.l/BackLeg2.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l/BackLeg1.l/BackLeg2.l/BackFoot.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r/BackLeg1.r
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r/BackLeg1.r/BackLeg2.r
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r/BackLeg1.r/BackLeg2.r/BackFoot.r
+        weight: 1
+      - path: Skeleton/Root/Hips/Tail1
+        weight: 1
+      - path: Skeleton/Root/Hips/Tail1/Tail2
+        weight: 1
+      - path: Skeleton/Root/Hips/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Skeleton/Root/Spine
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.l
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.l/FrontLeg2.l
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.l/FrontLeg2.l/FrontFoot.l
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.r
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.r/FrontLeg2.r
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.r/FrontLeg2.r/FrontFoot.r
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/Neck
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/Neck/Head
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle1
+      takeName: Skeleton|Animations
+      firstFrame: 345
+      lastFrame: 405
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat
+        weight: 1
+      - path: Skeleton
+        weight: 1
+      - path: Skeleton/Root
+        weight: 1
+      - path: Skeleton/Root/Hips
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l/BackLeg1.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l/BackLeg1.l/BackLeg2.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l/BackLeg1.l/BackLeg2.l/BackFoot.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r/BackLeg1.r
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r/BackLeg1.r/BackLeg2.r
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r/BackLeg1.r/BackLeg2.r/BackFoot.r
+        weight: 1
+      - path: Skeleton/Root/Hips/Tail1
+        weight: 1
+      - path: Skeleton/Root/Hips/Tail1/Tail2
+        weight: 1
+      - path: Skeleton/Root/Hips/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Skeleton/Root/Spine
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.l
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.l/FrontLeg2.l
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.l/FrontLeg2.l/FrontFoot.l
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.r
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.r/FrontLeg2.r
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.r/FrontLeg2.r/FrontFoot.r
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/Neck
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/Neck/Head
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle2
+      takeName: Skeleton|Animations
+      firstFrame: 435
+      lastFrame: 505
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat
+        weight: 1
+      - path: Skeleton
+        weight: 1
+      - path: Skeleton/Root
+        weight: 1
+      - path: Skeleton/Root/Hips
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l/BackLeg1.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l/BackLeg1.l/BackLeg2.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l/BackLeg1.l/BackLeg2.l/BackFoot.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r/BackLeg1.r
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r/BackLeg1.r/BackLeg2.r
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r/BackLeg1.r/BackLeg2.r/BackFoot.r
+        weight: 1
+      - path: Skeleton/Root/Hips/Tail1
+        weight: 1
+      - path: Skeleton/Root/Hips/Tail1/Tail2
+        weight: 1
+      - path: Skeleton/Root/Hips/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Skeleton/Root/Spine
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.l
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.l/FrontLeg2.l
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.l/FrontLeg2.l/FrontFoot.l
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.r
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.r/FrontLeg2.r
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.r/FrontLeg2.r/FrontFoot.r
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/Neck
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/Neck/Head
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle3
+      takeName: Skeleton|Animations
+      firstFrame: 535
+      lastFrame: 565
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat
+        weight: 1
+      - path: Skeleton
+        weight: 1
+      - path: Skeleton/Root
+        weight: 1
+      - path: Skeleton/Root/Hips
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l/BackLeg1.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l/BackLeg1.l/BackLeg2.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l/BackLeg1.l/BackLeg2.l/BackFoot.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r/BackLeg1.r
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r/BackLeg1.r/BackLeg2.r
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r/BackLeg1.r/BackLeg2.r/BackFoot.r
+        weight: 1
+      - path: Skeleton/Root/Hips/Tail1
+        weight: 1
+      - path: Skeleton/Root/Hips/Tail1/Tail2
+        weight: 1
+      - path: Skeleton/Root/Hips/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Skeleton/Root/Spine
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.l
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.l/FrontLeg2.l
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.l/FrontLeg2.l/FrontFoot.l
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.r
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.r/FrontLeg2.r
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.r/FrontLeg2.r/FrontFoot.r
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/Neck
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/Neck/Head
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Tail
+      takeName: Skeleton|Animations
+      firstFrame: 605
+      lastFrame: 630
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat
+        weight: 1
+      - path: Skeleton
+        weight: 1
+      - path: Skeleton/Root
+        weight: 1
+      - path: Skeleton/Root/Hips
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l/BackLeg1.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l/BackLeg1.l/BackLeg2.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l/BackLeg1.l/BackLeg2.l/BackFoot.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r/BackLeg1.r
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r/BackLeg1.r/BackLeg2.r
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r/BackLeg1.r/BackLeg2.r/BackFoot.r
+        weight: 1
+      - path: Skeleton/Root/Hips/Tail1
+        weight: 1
+      - path: Skeleton/Root/Hips/Tail1/Tail2
+        weight: 1
+      - path: Skeleton/Root/Hips/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Skeleton/Root/Spine
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.l
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.l/FrontLeg2.l
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.l/FrontLeg2.l/FrontFoot.l
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.r
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.r/FrontLeg2.r
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.r/FrontLeg2.r/FrontFoot.r
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/Neck
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/Neck/Head
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hurt - MidAir
+      takeName: Skeleton|Animations
+      firstFrame: 305
+      lastFrame: 305
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat
+        weight: 1
+      - path: Skeleton
+        weight: 1
+      - path: Skeleton/Root
+        weight: 1
+      - path: Skeleton/Root/Hips
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l/BackLeg1.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l/BackLeg1.l/BackLeg2.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.l/BackLeg1.l/BackLeg2.l/BackFoot.l
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r/BackLeg1.r
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r/BackLeg1.r/BackLeg2.r
+        weight: 1
+      - path: Skeleton/Root/Hips/BackLeg0.r/BackLeg1.r/BackLeg2.r/BackFoot.r
+        weight: 1
+      - path: Skeleton/Root/Hips/Tail1
+        weight: 1
+      - path: Skeleton/Root/Hips/Tail1/Tail2
+        weight: 1
+      - path: Skeleton/Root/Hips/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Skeleton/Root/Spine
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.l
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.l/FrontLeg2.l
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.l/FrontLeg2.l/FrontFoot.l
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.r
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.r/FrontLeg2.r
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/FrontLeg1.r/FrontLeg2.r/FrontFoot.r
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/Neck
+        weight: 1
+      - path: Skeleton/Root/Spine/Spine.001/Neck/Head
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
