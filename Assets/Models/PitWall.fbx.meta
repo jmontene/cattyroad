@@ -1,35 +1,15 @@
 fileFormatVersion: 2
-guid: 591e0a7b775261d43b5f2769ea2da14c
+guid: 09f999e9b2cce4e4a8a77c263b70c481
 timeCreated: 1495423801
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: Handle
-    100002: Ligh
-    100004: Sack
-    100006: //RootNode
-    100008: VolumetricLigh
-    400000: Handle
-    400002: Ligh
-    400004: Sack
-    400006: //RootNode
-    400008: VolumetricLigh
-    2300000: Handle
-    2300002: Ligh
-    2300004: Sack
-    2300006: //RootNode
-    2300008: VolumetricLigh
-    3300000: Handle
-    3300002: Ligh
-    3300004: Sack
-    3300006: //RootNode
-    3300008: VolumetricLigh
-    4300000: Vacuum
-    4300002: VolumetricLigh
-    4300004: Handle
-    4300006: Sack
-    4300008: Ligh
+    100000: //RootNode
+    400000: //RootNode
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Plane
   materials:
     importMaterials: 1
     materialName: 0
